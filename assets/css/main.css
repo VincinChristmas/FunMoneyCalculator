@@ -35,10 +35,19 @@
     text-align: center;
     width: 44px;
     height: 44px;
-    border: 10x solid black;
+    border: 1px solid rgba(249, 211, 139,1);
     border-radius: 50%;
     background: rgba(255, 229, 180, 1);
     color:  rgba(0, 0, 128,1);
+    box-shadow:  5px 5px 5px  rgba(240, 208, 147, 0.936);
+    transition: all .1s linear;
+    font-weight: 900;
+  }
+
+  button:active {
+    box-shadow: 0 2px 0 #006599;
+    transform: translateY(3px);
+
   }
 
   
